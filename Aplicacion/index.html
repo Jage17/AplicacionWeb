@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>LasVaras</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap Css -->
+    <link href="bootstrap-assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style -->
+    <link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <link href="plugins/Lightbox/dist/css/lightbox.css" rel="stylesheet">
+    <link href="plugins/Icons/et-line-font/style.css" rel="stylesheet">
+    <link href="plugins/animate.css/animate.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- Icons Font -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+
+<script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<body>
+    <!-- Preloader
+	============================================= -->
+    <div class="preloader"><i class="fa fa-circle-o-notch fa-spin fa-2x"></i></div>
+    <!-- Header
+	============================================= -->
+    <section class="main-header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="img/logo/logo.png" class="img-responsive" alt="logo"></a>
+                </div>
+                <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
+                    <div class="col-md-8 col-xs-12 nav-wrap">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#owl-hero" class="page-scroll">Home</a></li>
+                            <li><a href="#services" class="page-scroll">Noticias</a></li>
+                            <li><a href="#portfolio" class="page-scroll">Galeria</a></li>
+                            <li><a href="#contact" class="page-scroll">Equipo</a></li>
+                            <li><a href="#info" class="page-scroll">Info</a></li>
+                        </ul>
+                    </div>
+                    <div class="social-media hidden-sm hidden-xs">
+                        <ul class="nav navbar-nav">
+                            <li><a href="login/form-1/index.html"><i class="fa fa-facebook" ></i></a></li>
+                            <li><a href="login/form-1/index.html"><i class="fa fa-twitter"  ></i></a></li>
+                            <li><a href="login/form-1/index.html"><i class="fa fa-dribbble" ></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="owl-hero" class="owl-carousel owl-theme">
+            <div class="item" style="background-image: url(img/sliders/Slide.jpg)">
+                <div class="caption">
+                    <h1>FC<span>LasVaras</span></h1>
+                    <a class="btn btn-transparent" href="#">Partidos</a><a class="btn btn-light" href="#">Tienda</a>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/sliders/Slide2.jpg)">
+                <div class="caption">
+                    <h1>FC<span>LasVaras</span></h1>
+                    <a class="btn btn-transparent" href="#">Partidos</a><a class="btn btn-light" href="#">Tienda</a>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/sliders/Slide3.jpg)">
+                <div class="caption">
+                    <h1>FC<span>LasVaras</span></h1>
+                    <a class="btn btn-transparent" href="#">Partidos</a><a class="btn btn-light" href="#">Tienda</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Welcome
+	============================================= -->
+    <section id="welcome">
+        <div class="container">
+            <h2>FC <span>LasVaras</span></h2>
+            <hr class="sep">
+            <img class="img-responsive center-block wow fadeInUp" data-wow-delay=".3s" src="img/welcome/logo.png" alt="logo">
+        </div>
+    </section>
+
+    <!-- Services
+	============================================= -->
+    <section id="services">
+        <div class="container">
+            <h2>Lo que esta pasando</h2>
+            <hr class="light-sep">
+            <div class="services-box">
+                <div class="row wow fadeInUp" data-wow-delay=".3s">
+                    <div class="col-md-4">
+                        <div class="media-left"><span class="icon-lightbulb"></span></div>
+                        <div class="media-body">
+                            <h3>Ideas</h3>
+                            <p>Se parte del equipo aportando nuevas implementaciones dentro de 
+                            nuestra plantilla.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="media-left"><span class="icon-mobile"></span></div>
+                        <div class="media-body">
+                            <h3>LasVaras FC APP</h3>
+                            <p>Enterate de todo lo que pasa dentro del equipo desde la aplicacion</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="media-left"><span class="icon-compass"></span></div>
+                        <div class="media-body">
+                            <h3>Lugares</h3>
+                            <p>Acompañanos en cada uno de nuestros partidos.</p>
+                        </div>
+
+                    </div>
+
+
+                        </div>
+               </div>
+    </section>
+
+    <!-- Portfolio
+	============================================= -->
+    <section id="portfolio">
+        <div class="container-fluid">
+            <h2>Galeria</h2>
+            <hr class="sep">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                    <a class="portfolio-box" href="img/portfolio/1.jpg" data-lightbox="image-1" data-title="Your caption">
+                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="1">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Alegria
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                    <a href="img/portfolio/2.jpg" class="portfolio-box" data-lightbox="image-2" data-title="Your caption">
+                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="2">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Conquista
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                    <a href="img/portfolio/3.jpg" class="portfolio-box" data-lightbox="image-3" data-title="Your caption">
+                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="3">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Lucha
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                    <a href="img/portfolio/4.jpg" class="portfolio-box" data-lightbox="image-4" data-title="Your caption">
+                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="4">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Respeto
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                    <a href="img/portfolio/5.jpg" class="portfolio-box" data-lightbox="image-5" data-title="Your caption">
+                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="5">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Unidad
+                                </div>
+                                </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                    <a href="img/portfolio/6.jpg" class="portfolio-box" data-lightbox="image-6" data-title="Your caption">
+                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="6">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Esfuerzo
+                                </div>
+                                </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   
+    <!-- Testimonials
+	============================================= -->
+    
+    <!-- Contact Us
+	============================================= -->
+    <section id="contact">
+        <div class="container">
+         <h2>Equipo</h2>
+           <hr class="sep">
+            <div class="row">
+             <div class="col-md-6 col-md-offset-3 wow fadeInUp" data-wow-delay=".3s">
+              <div class="col-md-6">
+                        <div class="media-body">
+                            <p>Ingresa a la plantilla del equipo</p>
+                        </div>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="Name" placeholder="Nombre del Jugador">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="Email" placeholder="Correo">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="form-control input-xs" id="Number" 
+                        placeholder="Numero">
+                    </div>
+                    <div class="form-group spacer-sm">
+                        <select class="form-control" id="position" placeholder="Posicion">
+                                <option>Portero</option>
+                                <option>Defensa Central</option>
+                                <option>Lateral Izquierdo</option>
+                                <option>Lateral Derecho</option>
+                                <option>Contencion</option>
+                                <option>Mediocampista</option>
+                                <option>Extremo Derecho</option>
+                                <option>Extremo Izquierdo</option>
+                                <option>Media Punta</option>
+                                <option>Delantero</option>
+                            </select>
+                    </div>
+                 
+                    <a href="#" class="btn-block">Enviar</a>
+                </form>
+            </div>
+            <div class="col-md-5">
+                <table id="playersTable" class="table table-hover table-bordered table-striped">
+                    <thead>
+                        <tr class="info">
+                            <th>Nombre</th>
+                            <th>Correo</th>
+                            <th>Número</th>
+                            <th>Posición</th>
+                            <th colspan="2"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <section id="info">
+        <div class="container">
+            <h2>Informacion</h2>
+            <hr class="light-sep">
+            <div class="services-box">
+                <div class="row wow fadeInUp" data-wow-delay=".3s">
+                    <div class="col-md-6">
+                        <div class="media-body">
+                            <h3>Mision</h3>
+                            <p>Se parte de nuestro equipo y observa el ascenso del mismo
+                            superando todas las dificultades que encontremos en nuestro
+                            camino</p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media-body">
+                            <h3>Vision</h3>
+                            <p>Nuestro objetivo apunta a ser el mejor equipo del continente
+                            en base al buen manejo del futbol y disposicion del equipo, setando 
+                            una base para las nuevas generaciones del equipo.</p>
+                        </div>
+
+                    </div>
+
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Google Map
+	============================================= --> 
+    <!-- Footer
+	============================================= -->
+    <footer>
+        <div class="container">
+            <h1>AJ Inc.</h1>
+            <div class="social">
+                <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fa fa-dribbble fa-2x"></i></a>
+            </div>
+            <h6>&copy; 2016 </h6>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-assets/js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- JS PLUGINS -->
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="plugins/waypoints/jquery.waypoints.min.js"></script>
+    <script src="plugins/countTo/jquery.countTo.js"></script>
+    <script src="plugins/inview/jquery.inview.min.js"></script>
+    <script src="plugins/Lightbox/dist/js/lightbox.min.js"></script>
+    <script src="plugins/WOW/dist/wow.min.js"></script>
+    <!-- GOOGLE MAP -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+</body>
+
+initializeApp(config);
+</script>
+
+</html>
