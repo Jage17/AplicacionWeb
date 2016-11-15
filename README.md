@@ -1,8 +1,10 @@
 # AplicacionWeb
 
 Integrantes:
-            Juan Angel Garcia Escobar             20131004780
-            Marvin Alfredo Trejo Morales          20131008502
+            -Juan Angel Garcia Escobar             20131004780
+            
+            
+            -Marvin Alfredo Trejo Morales          20131008502
             
 Tema:
     Nuestro proyecto consiste en una aplicacion de un club de futbol el cual gestiona todos los apartados que se necesitan
